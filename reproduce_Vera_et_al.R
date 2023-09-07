@@ -1,3 +1,12 @@
+###########################################
+###
+### Script to reproduce analyses of Vera et al. (http://hdl.handle.net/10261/303669)
+###
+### Data provided by the authors, available in the future at https://osf.io/6ekqy/
+###
+###
+
+
 library(tidyverse)
 
 full_data <- read_delim(file = "./input/Participants data.csv",
